@@ -1,0 +1,22 @@
+- client
+  - creer utilisateur (manu / alvin / luc / …)
+    - OK
+    - KO (utilisateur existe déjà)
+    - KO (pas de pseudo)
+  - « authentifier » utilisateur
+    - OK
+    - KO (utilisateur inexistant)
+  - Saisir ma couleur préférée
+    - ne pas afficher si pas de utilisateur courant
+  - Mise à jour couleur préférée
+    - effacer si pas d'utilisateur courant
+    - effacer si pas de couleur préférée
+    - changer si couleur préférée
+- serveur
+  - fournir points d'API
+  - service page index.html
+
+
+Client up and running (accès possible en http://XX.XX.XX.XX/)
+  - avoir un conteneur docker serveur
+  - servir route `/`
